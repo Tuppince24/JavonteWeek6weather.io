@@ -27,24 +27,65 @@
 
     <!--Making the side bar here-->
     <section class="meatPot" id="allSideB">
-        <div class="row">
-            <div class="col-md-4">
+        <div class="row sidebar">
+            <div class="col-md-4 clearfix" id="sidebar">
                 <h6><strong>Search for a city:</strong></h6>
                 <form class="form-inline my-2 my-lg-0" id="js-search-form">
                     <input class="form-control mr-sm-2" for="search" type="search" id="js-search-input" placeholder="Search" aria-label="Search" >
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                  </form>
+                </form>
+            </div>
+
+            
+
+
+            <div class="com-md-5" id="dateData">
+                <h1 id="WDate"></h1>
+                <p id="temperture">Temperture:</p>
+                <p id="humidity">Humidity:</p>
+                <p id="WindSpeed">Wind Speed:</p>
+                <P id="UVindex">UV index:</P>
+            </div>
+        </div>
+
+
+        
+    </section>
+
+
+    <!--making two row in section / main content of page (meat and potatoes)-->
+    <section id="twoRows">
+        <div class="row right clearfix" >
+            <!--day 1-->
+            <div class="com-md-2.4">
+                <div id="day1"></div>
+            </div>
+
+            <!--day 2-->
+            <div class="com-md-2.4">
+                <div id="day2"></div>
+            </div>
+
+            <!--day 3-->
+            <div class="com-md-2.4">
+                <div id="day3"></div>
+            </div>
+
+            <!--day 4-->
+            <div class="com-md-2.4">
+                <div id="day4"></div>
+            </div>
+
+            <!--day 5-->
+            <div class="com-md-2.4">
+                <div id="day6"></div>
             </div>
         </div>
     </section>
 
 
-    <!--making two row in section / main content of page (meat and potatoes)-->
-    <section id="twoRows"></section>
 
 
-
-
-    <script src="#"></script>
+    <script src="script.js"></script>
 </body>
 </html>

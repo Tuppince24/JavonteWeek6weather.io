@@ -1,6 +1,7 @@
 body{
     display: block;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
 
 #wholeNav{
@@ -18,8 +19,34 @@ body{
     margin-left: 35%;
     text-align: center;
 }
+.sidebar{
+    background-color: cyan;
+    
+}
 
 section{
     margin:0 auto;
     width: 95%;
 }
+#sidebar{
+    border: black solid 1px;
+    
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#dateData{
+    border: black solid 1px;
+    margin-left: 20px;
+    width: 60%;
+    height: 65%;
+}
+ .right{
+    float: right;
+    margin:0 auto;
+    width: 65%;
+ }
