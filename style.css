@@ -1,0 +1,17 @@
+body{
+    margin:0 auto;
+    width: 100%;
+    display: block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#navRow{
+    background-color: #0d1a26;
+}
+
+#NavText{
+    color: cornsilk;
+    height: 35%;
+    margin-left: 35%;
+    text-align: center;
+}
