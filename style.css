@@ -19,10 +19,7 @@ body{
     margin-left: 35%;
     text-align: center;
 }
-.sidebar{
-    background-color: cyan;
-    
-}
+
 
 section{
     margin:0 auto;
@@ -49,4 +46,9 @@ section{
     float: right;
     margin:0 auto;
     width: 65%;
+ }
+
+ .box{
+     background-color: skyblue;
+     margin: 20px 20px;
  }
